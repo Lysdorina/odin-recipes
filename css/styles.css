@@ -1,0 +1,65 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+*,*::before,*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 62.5%;
+    background-color: #fdfafa;
+    color:  #3a3a3a;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*Header*/
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+nav {
+   text-align: center;
+   border-bottom: 2px solid #ccc;
+   margin-bottom: 2rem;
+   
+}
+
+nav li {
+    font-size: 1rem;
+}
+
+nav ul {
+    padding: 1rem;
+    
+}
+
+.list-flex {
+    display: flex;
+  
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.list-item:nth-child(1) {
+    flex-basis: 100%; 
+    color: lightseagreen; 
+    
+}
